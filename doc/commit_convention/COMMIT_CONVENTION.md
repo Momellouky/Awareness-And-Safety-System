@@ -19,7 +19,7 @@ A common commit convention that you could follow for this project is the Convent
 - style: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc).
 - refactor: Changes that neither fixes a bug nor adds a feature (renaming a variable, extracting a method, moving a function).
 - test: Adding missing tests or correcting existing tests.
-chore: Changes to the build process or auxiliary tools and libraries such as documentation generation.
+- chore: Changes to the build process or auxiliary tools and libraries such as documentation generation.
 
 [optional scope]: This field is optional and allows you to specify the area of the codebase that your changes affect. For example, if you're working on the input module, you could use [input] as the scope.
 
