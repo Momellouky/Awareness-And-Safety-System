@@ -13,5 +13,7 @@ Contributions to this project are welcome. If you want to contribute, please fol
 
 - Submit a pull request to merge your changes into the main branch.
 
+To contribute. Please check the [commit conventions](doc/commit_convention/COMMIT_CONVENTION.md)
+
 # License
 This project is licensed under the MIT License. See the LICENSE file for more information.
