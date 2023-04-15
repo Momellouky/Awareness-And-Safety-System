@@ -26,6 +26,12 @@ class task {
         /// param is equal to the current state. 
         virtual void change_state(utils::state _state) = 0; 
 
+        /// @brief generates an id for each task
+        /// @param id : a reference to task's id 
+        /// This function takes a reference to task's id to avoid 
+        /// copying data caused by return value. 
+        static void generate_id(std::string& _id); 
+
         ~task(); // Currently is public 
                 // In the future. Make a kill() function to kill a task
     private:
