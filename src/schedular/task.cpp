@@ -16,7 +16,7 @@ task::task(std::uint8_t _delay,
 /// @warning THIS IS TEMP IMPLEMENTATION OF THIS METHOD
 /// LOOKING FOR A CLEVER WAY TO GENERATE UNIQUE IDs 
 /// WITHOUT THE USE OF EXTERNAL LIBRARIES
-static void generate_id(std::string& _id){
+void task::generate_id(std::string& _id){
     static id_type id = 0; 
     _id = std::to_string(id);
 }
