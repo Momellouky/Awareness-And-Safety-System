@@ -9,7 +9,10 @@ p_task::p_task(std::uint8_t _delay,
             }
 
 void p_task::change_state(utils::state _state) {
-    std::cout << "Changine state... \n"; 
+    if(this->_state == _state){
+        throw utils::invalid_switch_state_exception("FAILED TO CHANGE STATE. IT WAS THE SAME STATE!!!"); 
+    }
+    this->_state = _state; 
 }
 
 p_task::~p_task(){

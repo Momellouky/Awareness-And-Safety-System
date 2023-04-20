@@ -34,7 +34,7 @@ class task {
 
         ~task(); // Currently is public 
                 // In the future. Make a kill() function to kill a task
-    private:
+    protected:
         /// @brief task id
         std::string _id;
         /// @brief task delay. An upper bound of 
